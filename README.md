@@ -16,17 +16,17 @@ Data cleaning steps were performed to prepare the dataset for analysis. Outliers
 In this project, we conducted an Exploratory Data Analysis (EDA) to gain insights into the dataset and understand the relationship between various physical characteristics and crab age.
 
 ### Scatter Plot: Relationship between Length and Age
-![Scatter Plot](https://github.com/Aravinth-Megnath/Crab_age/blob/41b3402e1ce4c2497ffc4bfa1164307f634690d7/scatter%20plot.png)
+![scatter plot](https://github.com/Aravinth-Megnath/Crab_age/assets/120720408/0dc965fe-db19-4928-8510-aa5e97822029)
 
 Using a scatter plot, we explored the relationship between the length of the crab and its age. Although there appears to be a positive correlation, we cannot determine causality from the scatter plot alone.
 
 ### Histogram: Distribution of Age
-![Hist Plot](https://github.com/Aravinth-Megnath/Crab_age/blob/41b3402e1ce4c2497ffc4bfa1164307f634690d7/hist%20plot.png)
+![hist plot](https://github.com/Aravinth-Megnath/Crab_age/assets/120720408/60a19109-9dbb-43b5-b6d8-321fd40d61e1)
 
 We generated a histogram to visualize the distribution of age. The histogram reveals a normal distribution of age in the dataset.
 
 ### Violin Plot: Age by Sex
-![Violin Plot](https://github.com/Aravinth-Megnath/Crab_age/blob/41b3402e1ce4c2497ffc4bfa1164307f634690d7/violin%20plot.png)
+![violin plot](https://github.com/Aravinth-Megnath/Crab_age/assets/120720408/51179126-9b01-4790-8ea1-9cd7a715bec6)
 
 By using a violin plot, we examined the distribution of age based on the crab's sex. The plot shows a bulge in the middle, indicating that the median age is more common than other values. This suggests that the distribution may be skewed towards the median or have more observations around it.
 
@@ -37,12 +37,13 @@ By using a violin plot, we examined the distribution of age based on the crab's 
 We created a box plot to compare the distribution of age between male and female crabs, as well as intermediate crabs. The box plots indicate that the median, quartiles, and outliers for male and female crabs are almost the same when compared to intermediate crabs.
 
 ### Pairplot: Pairwise Relationships
-![Pairplot](https://github.com/Aravinth-Megnath/Crab_age/blob/41b3402e1ce4c2497ffc4bfa1164307f634690d7/pair%20plot.png)
+![pair plot](https://github.com/Aravinth-Megnath/Crab_age/assets/120720408/50d86926-2d48-4191-a6e4-027c10229aab)
 
 The pairplot illustrates the pairwise relationships between the variables length, diameter, height, weight, and age, with the points colored by the sex variable. Upon examining the age pairwise with other columns, we observed better correlations between age and other features.
 
 ### Heatmap: Correlation Matrix
-![Heatmap](https://github.com/Aravinth-Megnath/Crab_age/blob/41b3402e1ce4c2497ffc4bfa1164307f634690d7/correlation%20matrix.png)
+![correlation matrix](https://github.com/Aravinth-Megnath/Crab_age/assets/120720408/dd00078f-428f-46d9-84d3-4280f7220920)
+
 
 Using a heatmap, we visualized the correlation matrix to measure the linear relationship between different features and crab age. The heatmap highlights that shell weight and diameter have the highest correlation with age.
 
