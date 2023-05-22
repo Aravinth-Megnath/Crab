@@ -41,7 +41,7 @@ We created a box plot to compare the distribution of age between male and female
 The pairplot illustrates the pairwise relationships between the variables length, diameter, height, weight, and age, with the points colored by the sex variable. Upon examining the age pairwise with other columns, we observed better correlations between age and other features.
 
 ### Heatmap: Correlation Matrix
-![Heatmap](correlation matrix.png)
+![Heatmap](https://github.com/Aravinth-Megnath/Crab_age/blob/41b3402e1ce4c2497ffc4bfa1164307f634690d7/correlation%20matrix.png)
 
 Using a heatmap, we visualized the correlation matrix to measure the linear relationship between different features and crab age. The heatmap highlights that shell weight and diameter have the highest correlation with age.
 
