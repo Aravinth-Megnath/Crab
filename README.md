@@ -31,7 +31,8 @@ We generated a histogram to visualize the distribution of age. The histogram rev
 By using a violin plot, we examined the distribution of age based on the crab's sex. The plot shows a bulge in the middle, indicating that the median age is more common than other values. This suggests that the distribution may be skewed towards the median or have more observations around it.
 
 ### Box Plot: Distribution of Age by Sex
-![Box Plot](https://github.com/Aravinth-Megnath/Crab_age/blob/41b3402e1ce4c2497ffc4bfa1164307f634690d7/box%20plot.png)
+![box plot](https://github.com/Aravinth-Megnath/Crab_age/assets/120720408/4b366321-d291-4f7a-8822-bf455449c60a)
+
 
 We created a box plot to compare the distribution of age between male and female crabs, as well as intermediate crabs. The box plots indicate that the median, quartiles, and outliers for male and female crabs are almost the same when compared to intermediate crabs.
 
