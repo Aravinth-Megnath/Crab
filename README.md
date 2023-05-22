@@ -24,14 +24,14 @@ Five different machine learning algorithms were trained and evaluated using appr
 The developed machine learning model using the random forest algorithm demonstrated the potential to accurately predict the age of crabs based on physical characteristics. However, further improvements can be made to enhance the model's accuracy. The project highlights the application of machine learning techniques in predicting crab age and their potential use in the fishing and seafood industry.
 
 ## Repository Contents
-- [notebook.ipynb]([link_to_notebook](https://github.com/Aravinth-Megnath/Crab_age/blob/crab1/crab_age_prediction.ipynb) - Jupyter Notebook containing the complete analysis.
+- [notebook.ipynb]((https://github.com/Aravinth-Megnath/Crab_age/blob/crab1/crab_age_prediction.ipynb)) - Jupyter Notebook containing the complete analysis.
 - [data]([link_to_data](https://github.com/Aravinth-Megnath/Crab_age/blob/crab1/CrabAgePrediction.csv) - Folder containing the dataset used in the analysis.
 - [models]([link_to_models](https://github.com/Aravinth-Megnath/Crab_age/blob/crab1/random_forest_model.pkl) - Folder containing the saved machine learning model.
 
 
 ## Usage
 To replicate the analysis and run the Jupyter Notebook, follow these steps:
-1. Clone this repository: `git clone https://github.com/your_username/project.git`
+1. Clone this repository: `git@github.com:Aravinth-Megnath/Crab_age.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the Jupyter Notebook: `jupyter notebook notebook.ipynb`
 
@@ -43,5 +43,5 @@ Please note that the dataset and saved model files should be placed in the appro
 - Collecting additional data to expand the dataset and enhance the model's generalizability.
 
 ## Credits
-This project was developed by [Your Name](https://github.com/Aravinth-Megnath). If you have any questions or suggestions, please feel free to contact me.
+This project was developed by [Aravinth Meganathan](https://github.com/Aravinth-Megnath). If you have any questions or suggestions, please feel free to contact me.
 
