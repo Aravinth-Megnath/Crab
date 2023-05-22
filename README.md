@@ -11,31 +11,37 @@ The objective of this project is to build a machine learning model that can accu
 ## Data Cleaning
 Data cleaning steps were performed to prepare the dataset for analysis. Outliers were identified and removed using the interquartile range (IQR) method. 
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis\
 
 In this project, we conducted an Exploratory Data Analysis (EDA) to gain insights into the dataset and understand the relationship between various physical characteristics and crab age.
 
 ### Scatter Plot: Relationship between Length and Age
+![Scatter Plot](scatter plot.png)
 
 Using a scatter plot, we explored the relationship between the length of the crab and its age. Although there appears to be a positive correlation, we cannot determine causality from the scatter plot alone.
 
 ### Histogram: Distribution of Age
+![Hist Plot](hist plot.png)
 
 We generated a histogram to visualize the distribution of age. The histogram reveals a normal distribution of age in the dataset.
 
 ### Violin Plot: Age by Sex
+![Violin Plot](violin plot.png)
 
 By using a violin plot, we examined the distribution of age based on the crab's sex. The plot shows a bulge in the middle, indicating that the median age is more common than other values. This suggests that the distribution may be skewed towards the median or have more observations around it.
 
 ### Box Plot: Distribution of Age by Sex
+![Box Plot](box plot.png)
 
 We created a box plot to compare the distribution of age between male and female crabs, as well as intermediate crabs. The box plots indicate that the median, quartiles, and outliers for male and female crabs are almost the same when compared to intermediate crabs.
 
 ### Pairplot: Pairwise Relationships
+![Pairplot](pair plot.png)
 
 The pairplot illustrates the pairwise relationships between the variables length, diameter, height, weight, and age, with the points colored by the sex variable. Upon examining the age pairwise with other columns, we observed better correlations between age and other features.
 
 ### Heatmap: Correlation Matrix
+![Heatmap](correlation matrix.png)
 
 Using a heatmap, we visualized the correlation matrix to measure the linear relationship between different features and crab age. The heatmap highlights that shell weight and diameter have the highest correlation with age.
 
