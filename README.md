@@ -24,10 +24,10 @@ Five different machine learning algorithms were trained and evaluated using appr
 The developed machine learning model using the random forest algorithm demonstrated the potential to accurately predict the age of crabs based on physical characteristics. However, further improvements can be made to enhance the model's accuracy. The project highlights the application of machine learning techniques in predicting crab age and their potential use in the fishing and seafood industry.
 
 ## Repository Contents
-- [notebook.ipynb](link_to_notebook) - Jupyter Notebook containing the complete analysis.
-- [data](link_to_data) - Folder containing the dataset used in the analysis.
-- [models](link_to_models) - Folder containing the saved machine learning model.
-- [utils.py](link_to_utils) - Python script with utility functions used in the analysis.
+- [notebook.ipynb]([link_to_notebook](https://github.com/Aravinth-Megnath/Crab_age/blob/crab1/crab_age_prediction.ipynb) - Jupyter Notebook containing the complete analysis.
+- [data]([link_to_data](https://github.com/Aravinth-Megnath/Crab_age/blob/crab1/CrabAgePrediction.csv) - Folder containing the dataset used in the analysis.
+- [models]([link_to_models](https://github.com/Aravinth-Megnath/Crab_age/blob/crab1/random_forest_model.pkl) - Folder containing the saved machine learning model.
+
 
 ## Usage
 To replicate the analysis and run the Jupyter Notebook, follow these steps:
@@ -43,5 +43,5 @@ Please note that the dataset and saved model files should be placed in the appro
 - Collecting additional data to expand the dataset and enhance the model's generalizability.
 
 ## Credits
-This project was developed by [Your Name](https://github.com/your_username). If you have any questions or suggestions, please feel free to contact me.
+This project was developed by [Your Name](https://github.com/Aravinth-Megnath). If you have any questions or suggestions, please feel free to contact me.
 
