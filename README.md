@@ -11,7 +11,7 @@ The objective of this project is to build a machine learning model that can accu
 ## Data Cleaning
 Data cleaning steps were performed to prepare the dataset for analysis. Outliers were identified and removed using the interquartile range (IQR) method. 
 
-## Exploratory Data Analysis\
+## Exploratory Data Analysis
 
 In this project, we conducted an Exploratory Data Analysis (EDA) to gain insights into the dataset and understand the relationship between various physical characteristics and crab age.
 
