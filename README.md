@@ -53,8 +53,6 @@ Using a heatmap, we visualized the correlation matrix to measure the linear rela
 
 The EDA provided valuable insights into the dataset, allowing us to identify potential relationships and important features for predicting the age of crabs.
 
-
-
 ## Feature Engineering
 Feature engineering techniques were applied to create additional features that could enhance the predictive performance of the models. This included the calculation of the body mass index (BMI), ratios of different measurements, interactions between measurements, and polynomial features. These new features were incorporated into the models to capture complex patterns and relationships.
 
@@ -77,6 +75,25 @@ In order to find the best regression model that fits the data with the highest a
 For each algorithm, we fine-tuned the parameters to achieve the best performance. The model with the highest score was determined to be the best model for the given dataset. 
 
 By comparing the scores, we found that the Random Forest algorithm performed the best with a score of 0.578481. This algorithm with the specified parameters is recommended for regression tasks on similar datasets.
+
+## Single Input Prediction
+
+In addition to training regression models on the dataset, we also developed functionality to predict the age of a crab using a single input. This feature can be useful when you have limited information about a crab and want to estimate its age based on its physical characteristics.
+
+To use the single input prediction feature, follow these steps:
+
+1. Prepare the input data: Gather the necessary physical characteristics of the crab for which you want to predict the age.
+
+2. Load the trained regression model: Make sure you have the trained regression model, which has been optimized for age prediction based on the given dataset.
+
+3. Input the data: Provide the physical characteristics of the crab as input to the regression model.
+
+4. Obtain the predicted age: The model will process the input and provide a predicted age for the crab based on its physical characteristics.
+
+By utilizing this single input prediction functionality, you can quickly estimate the age of a crab without relying on a large dataset. However, please note that the accuracy of the prediction may vary depending on the quality and completeness of the input data.
+
+Feel free to experiment with different inputs and explore how the model responds to variations in the crab's physical characteristics.
+
 
 
 ## Conclusion
