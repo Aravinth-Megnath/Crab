@@ -122,3 +122,12 @@ Please note that the dataset and saved model files should be placed in the appro
 ## Credits
 This project was developed by [Aravinth Meganathan](https://github.com/Aravinth-Megnath). If you have any questions or suggestions, please feel free to contact me.
 
+
+## Feedback
+
+Your feedback is important to me! If you have any suggestions, questions, or feedback regarding this project, please feel free to reach out to me at:
+
+- Email: [aravinthmegnath@gmail.com]
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg)](https://www.linkedin.com/in/aravinth-meganathan-200667a1/)
+
+I appreciate your valuable input and look forward to hearing from you!
