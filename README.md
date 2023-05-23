@@ -1,5 +1,7 @@
 # Predicting the Age of Crabs: A Machine Learning Approach
-![Uploading DALL·E 2023-05-23 11.14.23 - crab measurements with scale vernier calliper more detailed.png…]()
+
+![DALL·E 2023-05-23 11 14 23 - crab measurements with scale vernier calliper more detailed](https://github.com/Aravinth-Megnath/Crab_age/assets/120720408/da11c02b-ddf1-400a-b780-f93e9cd6cbb6)
+
 
 
 This repository contains a machine learning project focused on predicting the age of crabs based on various physical characteristics. The goal of this study is to develop a predictive model that can accurately estimate the age of crabs using features such as length, diameter, height, weight, and sex.
