@@ -59,6 +59,24 @@ Feature engineering techniques were applied to create additional features that c
 ## Best Model Selection
 Five different machine learning algorithms were trained and evaluated using appropriate evaluation metrics such as mean absolute error, mean squared error, and R-squared. The performance of each model was compared, and the random forest algorithm was found to provide the best performance with an R-squared value of 0.58.
 
+## Experiments
+
+In order to find the best regression model that fits the data with the highest accuracy, we trained and evaluated five different regression algorithms. The algorithms used, along with their best parameters and corresponding scores, are summarized below:
+
+| Model              | Best Parameters                                     | Best Score |
+|--------------------|-----------------------------------------------------|------------|
+| LinearRegression   | {'max_depth': 10, 'n_estimators': 500}              | 0.590137   |
+| RandomForest      | {'regressor__max_depth': 5, 'regressor__n_estimators':... | 0.578481   |
+| Ridge              | {'regressor__alpha': 1}                             | 0.576431   |
+| SVR                | {'regressor__C': 1, 'regressor__kernel': 'rbf'}      | 0.575149   |
+| Lasso              | {'regressor__alpha': 0.01}                          | 0.570413   |
+| DecisionTree       | {'regressor__max_depth': 5}                          | 0.506982   |
+
+For each algorithm, we fine-tuned the parameters to achieve the best performance. The model with the highest score was determined to be the best model for the given dataset. 
+
+By comparing the scores, we found that the Random Forest algorithm performed the best with a score of 0.578481. This algorithm with the specified parameters is recommended for regression tasks on similar datasets.
+
+
 ## Conclusion
 The developed machine learning model using the random forest algorithm demonstrated the potential to accurately predict the age of crabs based on physical characteristics. However, further improvements can be made to enhance the model's accuracy. The project highlights the application of machine learning techniques in predicting crab age and their potential use in the fishing and seafood industry.
 
